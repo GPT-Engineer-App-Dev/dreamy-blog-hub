@@ -23,10 +23,10 @@ const Index = () => {
             mb={4}
           />
           <Heading as="h1" size="xl" mb={2}>
-            John Doe
+            Jane Smith
           </Heading>
           <Text fontSize="lg" color="gray.600">
-            Full Stack Developer & Tech Enthusiast
+            Software Engineer & Open Source Advocate
           </Text>
         </Box>
         <Box>
@@ -34,7 +34,7 @@ const Index = () => {
             About Me
           </Heading>
           <Text fontSize="md" color="gray.700">
-            Welcome to my personal blog! I'm John, a passionate developer who loves to explore new technologies and share knowledge with the community. Here, you'll find articles on web development, programming tips, and my personal experiences in the tech world.
+            Welcome to my personal blog! I'm Jane, a dedicated software engineer who enjoys contributing to open source projects and sharing insights on software development. Here, you'll find tutorials, coding tips, and stories from my journey in the tech industry.
           </Text>
         </Box>
         <Box>
@@ -63,13 +63,13 @@ const Index = () => {
             Connect with Me
           </Heading>
           <VStack spacing={4} direction="row" justify="center">
-            <Link href="https://twitter.com" isExternal>
+            <Link href="https://twitter.com/jane_smith" isExternal>
               <FaTwitter size="30px" />
             </Link>
-            <Link href="https://github.com" isExternal>
+            <Link href="https://github.com/jane-smith" isExternal>
               <FaGithub size="30px" />
             </Link>
-            <Link href="https://linkedin.com" isExternal>
+            <Link href="https://linkedin.com/in/jane-smith" isExternal>
               <FaLinkedin size="30px" />
             </Link>
           </VStack>
